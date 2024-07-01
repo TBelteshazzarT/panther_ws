@@ -252,7 +252,7 @@
   	</link>
 
   	<joint name="hokuyo_joint" type="fixed">
-    		<origin xyz="0.0775 0 0"/>
+    		<origin xyz="0.356108 0 0.312"/>
     		<parent link="base_link"/>
     		<child link="hokuyo_link"/>
   	</joint>
@@ -260,7 +260,7 @@
   	<link name="laser_frame"/>
 
   	<joint name="laser_joint" type="fixed">
-    		<origin xyz="0 0 0.064"/>
+    		<origin xyz="0 0 0.376"/>
     		<parent link="hokuyo_link"/>
     		<child link="laser_frame"/>
   	</joint>
